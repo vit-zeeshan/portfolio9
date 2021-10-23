@@ -16,7 +16,7 @@ export default function Projects() {
 
   useEffect(() => {
     const getRepoData = () => {
-      fetch("/profile.json")
+      fetch("/portfolio/profile.json")
         .then(result => {
           console.log(result);
           if (result.ok) {
