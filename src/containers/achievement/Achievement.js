@@ -10,7 +10,7 @@ export default function Achievement() {
     return null;
   }
   return (
-    <Fade bottom duration={1000} distance="20px">
+    // <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
         <div className="achievement-main-div">
           <div className="achievement-header">
@@ -55,6 +55,6 @@ export default function Achievement() {
           </div>
         </div>
       </div>
-    </Fade>
+    // </Fade>
   );
 }

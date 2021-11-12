@@ -14,7 +14,7 @@ const greeting = {
   username: "Ahmed Joda",
   title: "Yo!, I'm Ahmed",
   subTitle: emoji(
-    "I am a passionate Back-end Developer 🚀 from Egypt 🇪🇬. having an experience of building Web and Mobile applications with JavaScript, Php, vue, NodeJS, TypeScript, flutter and some other cool libraries and frameworks."
+    "I am a passionate Back end Developer 🚀 from Egypt 🇪🇬. having an experience of building Web and Mobile applications with JavaScript, PHP, Vue.js, NodeJS, TypeScript, flutter and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1CG0EJkxiq8V3x7-iFBOSYxH6Fr8IIVk4/view?usp=sharing", // Set to empty to hide the button
@@ -40,10 +40,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY BACK-END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY BACK END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Creating backend applications in PHP, Laravel, Node, Express & Flask"
+      "⚡ Creating back end applications in PHP, Laravel, Node, Express & Flask"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
@@ -56,15 +56,15 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
+      skillName: "Sass",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
@@ -72,15 +72,15 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "vue",
+      skillName: "Vue.js",
       fontAwesomeClassname: "fab fa-vuejs"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "php",
+      skillName: "PHP",
       fontAwesomeClassname: "fab fa-php"
     },
     {
@@ -88,27 +88,27 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-laravel"
     },
     {
-      skillName: "npm",
+      skillName: "NPM",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "SQL & MySQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     }
   ],
@@ -140,7 +140,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Backend", //Insert stack or technology you have experience in
+      Stack: "back end", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
@@ -161,39 +161,39 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Back-end web Developer",
+      role: "Back end web Developer",
       company: "Const Tech",
       link: "https://www.const-tech.com.sa/",
       companylogo: require("./assets/images/const-tech.png"),
       date: "December 2020 – Present",
-      // desc: "back-end php web Developer, we mainly use php, laravel in backend and vue and npm in front-end.",
+      // desc: "Back end PHP web Developer, we mainly use PHP, Laravel in back end and Vue.js and npm in front end.",
       descBullets: [
-        "php, laravel in backend",
-        "vue and npm in front-end"
+        "PHP, Laravel in back end",
+        "Vue.js and npm in front end"
       ]
     },
     {
-      role: "Senior Back-end web Developer",
+      role: "Senior Back end web Developer",
       company: "Syscape",
       link: "https://syscape-space.com/",
       companylogo: require("./assets/images/syscape.png"),
       date: "June 2021 – Present",
-      // desc: "back-end php web Developer, we mainly use php, laravel in backend and vue and npm in front-end.",
+      // desc: "Back end PHP web Developer, we mainly use PHP, Laravel in back end and Vue.js and npm in front end.",
       descBullets: [
-        "php, laravel in backend",
-        "vue and npm in front-end"
+        "PHP, Laravel in back end",
+        "Vue.js and npm in front end"
       ]
     },
     {
-      role: "Back-end web Developer",
-      company: "Semseem",
-      link: "https://semseem.com/",
-      companylogo: require("./assets/images/semseem.png"),
+      role: "Back end web Developer",
+      company: "Almusand",
+      link: "https://almusand.com/",
+      companylogo: require("./assets/images/almusand.png"),
       date: "September 2021 – October 2021",
-      // desc: "back-end php web Developer, we mainly use php, laravel in backend and vue and npm in front-end.",
+      // desc: "Back end PHP web Developer, we mainly use PHP, Laravel in back end and Vue.js and npm in front end.",
       descBullets: [
-        "php, laravel in backend",
-        "vue and npm in front-end"
+        "PHP, Laravel in back end",
+        "Vue.js and npm in front end"
       ]
     },
   ]
@@ -249,6 +249,112 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Taif App",
+      url: "https://taif-app.com/",
+      image: require("./assets/images/projects/taif.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Semseem",
+      url: "https://semseem.com/",
+      image: require("./assets/images/projects/semseem.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Govoiceo",
+      url: "https://govoiceo.com",
+      image: require("./assets/images/projects/govoiceo.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Inayah",
+      url: "https://dev.inayah.net/",
+      image: require("./assets/images/projects/inayah.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Shrzzin",
+      url: "https://shrzzin.com/",
+      image: require("./assets/images/projects/shrzzin.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Dawah",
+      url: "https://namasdawah.net/",
+      image: require("./assets/images/projects/dawah.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Al Jabarti",
+      url: "https://alj4rec.net",
+      image: require("./assets/images/projects/jabarti.png"),
+      subtitle: "",
+      techs: ["PHP", "wordpress", "mysql"]
+    },
+    {
+      title: "Equation",
+      url: "https://equ.const-tech.biz/",
+      image: require("./assets/images/projects/equation.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Amniti",
+      url: "https://amniti.com/",
+      image: require("./assets/images/projects/amniti.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Stars Ads Gate",
+      url: "https://www.starsadsgate.com/",
+      image: require("./assets/images/projects/starsadsgate.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Itqan",
+      url: "https://th-qw.com/",
+      image: require("./assets/images/projects/itqan.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Matjri",
+      url: "https://mtajri.com/",
+      image: require("./assets/images/projects/mtajri.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Agnamy",
+      url: "http://sheep-s.com/",
+      image: require("./assets/images/projects/sheep.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Roomacake",
+      url: "https://roomacake.com/",
+      image: require("./assets/images/projects/roomacake.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Alasaker Horse",
+      url: "https://alasakerhorse.com/",
+      image: require("./assets/images/projects/alasakerhorse.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    
+    {
       title: "SOTO",
       url: "https://www.youtube.com/watch?v=GJ825HreLJw",
       image: require("./assets/images/projects/soto.webp"),
@@ -257,116 +363,11 @@ const achievementSection = {
       techs: ["c++", "unreal engine"]
     },
     {
-      title: "Govoiceo",
-      url: "https://govoiceo.com",
-      image: require("./assets/images/projects/govoiceo.png"),
-      subtitle: "",
-      techs: ["php", "laravel", "vue", "mysql"]
-    },
-    {
-      title: "Inayah",
-      url: "https://dev.inayah.net/",
-      image: require("./assets/images/projects/inayah.png"),
-      subtitle: "",
-      techs: ["php", "laravel", "vue", "mysql"]
-    },
-    {
-      title: "Shrzzin",
-      url: "https://shrzzin.com/",
-      image: require("./assets/images/projects/shrzzin.png"),
-      subtitle: "",
-      techs: ["php", "laravel", "vue", "mysql"]
-    },
-    {
-      title: "Dawah",
-      url: "https://namasdawah.net/",
-      image: require("./assets/images/projects/dawah.png"),
-      subtitle: "",
-      techs: ["php", "laravel", "vue", "mysql"]
-    },
-    {
-      title: "Al Jabarti",
-      url: "https://alj4rec.net",
-      image: require("./assets/images/projects/jabarti.png"),
-      subtitle: "",
-      techs: ["php", "wordpress", "mysql"]
-    },
-    {
-      title: "Equation",
-      url: "https://equ.const-tech.biz/",
-      image: require("./assets/images/projects/equation.png"),
-      subtitle: "",
-      techs: ["php", "laravel", "vue", "mysql"]
-    },
-    {
-      title: "Amniti",
-      url: "https://amniti.com/",
-      image: require("./assets/images/projects/amniti.png"),
-      subtitle: "",
-      techs: ["php", "laravel", "vue", "mysql"]
-    },
-    {
-      title: "Stars Ads Gate",
-      url: "https://www.starsadsgate.com/",
-      image: require("./assets/images/projects/starsadsgate.png"),
-      subtitle: "",
-      techs: ["php", "laravel", "vue", "mysql"]
-    },
-    {
-      title: "Itqan",
-      url: "https://th-qw.com/",
-      image: require("./assets/images/projects/itqan.png"),
-      subtitle: "",
-      techs: ["php", "laravel", "vue", "mysql"]
-    },
-    {
-      title: "Matjri",
-      url: "https://mtajri.com/",
-      image: require("./assets/images/projects/mtajri.png"),
-      subtitle: "",
-      techs: ["php", "laravel", "vue", "mysql"]
-    },
-    {
-      title: "Agnamy",
-      url: "http://sheep-s.com/",
-      image: require("./assets/images/projects/sheep.png"),
-      subtitle: "",
-      techs: ["php", "laravel", "vue", "mysql"]
-    },
-    {
-      title: "Roomacake",
-      url: "https://roomacake.com/",
-      image: require("./assets/images/projects/roomacake.png"),
-      subtitle: "",
-      techs: ["php", "laravel", "vue", "mysql"]
-    },
-    {
-      title: "Alasaker Horse",
-      url: "https://alasakerhorse.com/",
-      image: require("./assets/images/projects/alasakerhorse.png"),
-      subtitle: "",
-      techs: ["php", "laravel", "vue", "mysql"]
-    },
-    {
-      title: "Taif App",
-      url: "https://taif-app.com/",
-      image: require("./assets/images/projects/taif.png"),
-      subtitle: "",
-      techs: ["php", "laravel", "vue", "mysql"]
-    },
-    {
-      title: "Semseem",
-      url: "https://semseem.com/",
-      image: require("./assets/images/projects/semseem.png"),
-      subtitle: "",
-      techs: ["php", "laravel", "vue", "mysql"]
-    },
-    {
       title: "Tiybat",
       url: "https://tiybat.com/",
       image: require("./assets/images/projects/tiybat.png"),
       subtitle: "",
-      techs: ["php", "laravel", "vue", "mysql"]
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
     },
     
   ],
