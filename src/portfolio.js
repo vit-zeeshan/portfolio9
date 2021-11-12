@@ -14,7 +14,7 @@ const greeting = {
   username: "Ahmed Joda",
   title: "Yo!, I'm Ahmed",
   subTitle: emoji(
-    "I am a passionate Back end Developer 🚀 from Egypt 🇪🇬. having an experience of building Web and Mobile applications with JavaScript, PHP, Vue.js, NodeJS, TypeScript, flutter and some other cool libraries and frameworks."
+    "I am a passionate Back end Developer 🚀 from Egypt 🇪🇬. having an experience of building Web and Mobile applications with JavaScript, PHP, Vue.js, NodeJS, TypeScript, Flutter and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1CG0EJkxiq8V3x7-iFBOSYxH6Fr8IIVk4/view?usp=sharing", // Set to empty to hide the button
