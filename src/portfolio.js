@@ -14,7 +14,7 @@ const greeting = {
   username: "Ahmed Joda",
   title: "Yo!, I'm Ahmed",
   subTitle: emoji(
-    "I am a passionate Back end Developer 🚀 from Egypt 🇪🇬. with more than 3 years experience delivering tech solutions, avid programmer and fast learner, obsessed with details and quality, always tring to improve develpment process and code quality, I love simple and elegant solutions for every problem."
+    "I am a passionate Back end Developer 🚀 from Egypt 🇪🇬. with more than 3 years experience delivering tech solutions, avid programmer and fast learner, obsessed with details and quality, always trying to improve development process and code quality, I love simple and elegant solutions for every problem."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1CG0EJkxiq8V3x7-iFBOSYxH6Fr8IIVk4/view?usp=sharing", // Set to empty to hide the button
@@ -40,10 +40,10 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY BACK END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY BACK END ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Creating back end applications in PHP, Laravel, Node, Express & Flask"
+      "⚡ Creating back end applications in PHP/Laravel, Python/Django and Node/Express"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
@@ -157,7 +157,7 @@ const techStack = {
     },
     {
       Stack: "DevOps", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      progressPercentage: "85%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Frontend/Design",
@@ -173,14 +173,14 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Back end web Developer",
+      role: "web Developer",
       company: "Const Tech",
       link: "https://www.const-tech.com.sa/",
       companylogo: require("./assets/images/const-tech.png"),
       date: "December 2020 – January 2022",
-      // desc: "Back end PHP web Developer, we mainly use PHP, Laravel in back end and Vue.js in front end.",
+      // desc: "Back end PHP web Developer, we mainly use PHP/Laravel in back end and Vue.js in front end.",
       descBullets: [
-        "PHP, Laravel in back end",
+        "PHP/Laravel in back end",
         "livewire, Vue.js, Alpin.js in front end",
         "Integration of third party services such as Firebase/ AWS / Digital Ocean",
         "deploy applications to cPanel",
@@ -193,7 +193,7 @@ const workExperiences = {
       link: "https://syscape-space.com/",
       companylogo: require("./assets/images/syscape.png"),
       date: "June 2021 – Present",
-      // desc: "Back end PHP web Developer, we mainly use PHP, Laravel in back end and Vue.js in front end.",
+      // desc: "Back end PHP web Developer, we mainly use PHP/Laravel in back end and Vue.js in front end.",
       descBullets: [
         "PHP/Laravel and Python/Django in back end",
         "Integration of third party services such as Firebase/ AWS / Digital Ocean",
@@ -205,14 +205,14 @@ const workExperiences = {
       ]
     },
     {
-      role: "Back end web Developer",
+      role: "web Developer",
       company: "Almusand",
       link: "https://almusand.com/",
       companylogo: require("./assets/images/almusand.png"),
       date: "September 2021 – October 2021",
-      // desc: "Back end PHP web Developer, we mainly use PHP, Laravel in back end and Vue.js in front end.",
+      // desc: "Back end PHP web Developer, we mainly use PHP/Laravel in back end and Vue.js in front end.",
       descBullets: [
-        "PHP, Laravel in back end",
+        "PHP/Laravel in back end",
         "Vue.js in front end",
         "Integration of third party services"
       ]
