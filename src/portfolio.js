@@ -14,7 +14,7 @@ const greeting = {
   username: "Ahmed Joda",
   title: "Yo!, I'm Ahmed",
   subTitle: emoji(
-    "I am a passionate Back end Developer 🚀 from Egypt 🇪🇬. having an experience of building Web and Mobile applications with JavaScript, PHP, Vue.js, NodeJS, TypeScript, Flutter and some other cool libraries and frameworks."
+    "I am a passionate Back end Developer 🚀 from Egypt 🇪🇬. with more than 3 years experience delivering tech solutions, avid programmer and fast learner, obsessed with details and quality, always tring to improve develpment process and code quality, I love simple and elegant solutions for every problem."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1CG0EJkxiq8V3x7-iFBOSYxH6Fr8IIVk4/view?usp=sharing", // Set to empty to hide the button
@@ -165,23 +165,30 @@ const workExperiences = {
       company: "Const Tech",
       link: "https://www.const-tech.com.sa/",
       companylogo: require("./assets/images/const-tech.png"),
-      date: "December 2020 – Present",
-      // desc: "Back end PHP web Developer, we mainly use PHP, Laravel in back end and Vue.js and npm in front end.",
+      date: "December 2020 – January 2022",
+      // desc: "Back end PHP web Developer, we mainly use PHP, Laravel in back end and Vue.js in front end.",
       descBullets: [
         "PHP, Laravel in back end",
-        "Vue.js and npm in front end"
+        "livewire, Vue.js, Alpin.js in front end",
+        "Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        "Mentoring and coaching for junior developers",
       ]
     },
     {
-      role: "Senior Back end web Developer",
+      role: "Senior Back end Engineer",
       company: "Syscape",
       link: "https://syscape-space.com/",
       companylogo: require("./assets/images/syscape.png"),
       date: "June 2021 – Present",
-      // desc: "Back end PHP web Developer, we mainly use PHP, Laravel in back end and Vue.js and npm in front end.",
+      // desc: "Back end PHP web Developer, we mainly use PHP, Laravel in back end and Vue.js in front end.",
       descBullets: [
-        "PHP, Laravel in back end",
-        "Vue.js and npm in front end"
+        "PHP/Laravel and Python/Django in back end",
+        "Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        "Deployment of applications using Docker",
+        "Continuous Integration and Deployment using GitLab CI",
+        "Continuous Deployment using Kubernetes",
+        "Mentoring and coaching for junior developers",
+        "Migration of legacy applications to modern technologies",
       ]
     },
     {
@@ -190,10 +197,11 @@ const workExperiences = {
       link: "https://almusand.com/",
       companylogo: require("./assets/images/almusand.png"),
       date: "September 2021 – October 2021",
-      // desc: "Back end PHP web Developer, we mainly use PHP, Laravel in back end and Vue.js and npm in front end.",
+      // desc: "Back end PHP web Developer, we mainly use PHP, Laravel in back end and Vue.js in front end.",
       descBullets: [
         "PHP, Laravel in back end",
-        "Vue.js and npm in front end"
+        "Vue.js in front end",
+        "Integration of third party services"
       ]
     },
   ]
@@ -353,7 +361,42 @@ const achievementSection = {
       subtitle: "",
       techs: ["PHP", "Laravel", "Vue.js", "mysql"]
     },
-    
+
+    {
+      title: "Tiybat",
+      url: "https://tiybat.com/",
+      image: require("./assets/images/projects/tiybat.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Maham",
+      url: "https://maham.app/",
+      image: require("./assets/images/projects/maham.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Qr",
+      url: "https://qr-sa.net/",
+      image: require("./assets/images/projects/qr.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Golden Cleaver",
+      url: "http://sh.const-tech.biz/",
+      image: require("./assets/images/projects/goldencleaver.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
+    {
+      title: "Basima Droop",
+      url: "https://basimadroop.com/",
+      image: require("./assets/images/projects/basimadroop.png"),
+      subtitle: "",
+      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
+    },
     {
       title: "SOTO",
       url: "https://www.youtube.com/watch?v=GJ825HreLJw",
@@ -362,14 +405,7 @@ const achievementSection = {
         "an adventure-Narrati video game developed by MIST team using Unreal Engine.",
       techs: ["c++", "unreal engine"]
     },
-    {
-      title: "Tiybat",
-      url: "https://tiybat.com/",
-      image: require("./assets/images/projects/tiybat.png"),
-      subtitle: "",
-      techs: ["PHP", "Laravel", "Vue.js", "mysql"]
-    },
-    
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
