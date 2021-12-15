@@ -171,6 +171,7 @@ const workExperiences = {
         "PHP, Laravel in back end",
         "livewire, Vue.js, Alpin.js in front end",
         "Integration of third party services such as Firebase/ AWS / Digital Ocean",
+        "deploy applications to cPanel",
         "Mentoring and coaching for junior developers",
       ]
     },
