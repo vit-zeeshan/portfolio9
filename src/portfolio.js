@@ -24,13 +24,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/ahmedjoda",
-  linkedin: "https://www.linkedin.com/in/ahmedjoda",
+  github: "https://github.com/ahmedjoda/",
+  linkedin: "https://www.linkedin.com/in/ahmedjoda/",
   gmail: "ahmedjoda02@gmail.com",
-  gitlab: "https://gitlab.com/ahmedjdoa",
+  gitlab: "https://gitlab.com/ahmedjdoa/",
   // facebook: "",
   // medium: "",
-  stackoverflow: "https://stackoverflow.com/users/15415186/ahmed-joda",
+  stackoverflow: "https://stackoverflow.com/users/15415186/ahmed-joda/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
