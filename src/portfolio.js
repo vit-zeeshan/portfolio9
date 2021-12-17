@@ -25,7 +25,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/ahmedjoda",
-  linkedin: "https://www.linkedin.com/in/ahmed-joda-b1029920a",
+  linkedin: "https://www.linkedin.com/in/ahmedjoda",
   gmail: "ahmedjoda02@gmail.com",
   gitlab: "https://gitlab.com/ahmedjdoa",
   // facebook: "",
