@@ -182,7 +182,7 @@ const workExperiences = {
         "PHP/Laravel, Livewire",
         "Vue.js, Alpin.js",
         "Integration of, third party services such as Firebase/ AWS / Digital Ocean",
-        "deploy applications to cPanel",
+        "Deployment and Maintenance of applications to cPanel",
         "Mentoring and coaching for junior developers",
       ]
     },
