@@ -11,26 +11,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Ahmed Joda",
+  username: "Ahmed Almory",
   title: "Yo!, I'm Ahmed",
   subTitle: emoji(
     "I am a passionate backend engineer 🚀 from Egypt 🇪🇬. with more than 3 years experience delivering tech solutions, avid programmer and fast learner, obsessed with details and quality, always trying to improve development process and code quality, I love simple and elegant solutions for every problem."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1CG0EJkxiq8V3x7-iFBOSYxH6Fr8IIVk4/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/148xtF-Ufk3Rc2OqPNL-MNyIA5B8ap61U/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/ahmedjoda/",
-  linkedin: "https://www.linkedin.com/in/ahmedjoda/",
-  gmail: "ahmedjoda02@gmail.com",
+  github: "https://github.com/ahmedalmory/",
+  linkedin: "https://www.linkedin.com/in/ahmedalmory/",
+  gmail: "ahmedalmory02@gmail.com",
   gitlab: "https://gitlab.com/ahmedjdoa/",
   // facebook: "",
   // medium: "",
-  stackoverflow: "https://stackoverflow.com/users/15415186/ahmed-joda/",
+  stackoverflow: "https://stackoverflow.com/users/15415186/ahmed-almory/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -482,13 +482,13 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+201211779758",
-  email_address: "ahmedjoda02@gmail.com"
+  email_address: "ahmedalmory02@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "ahmedjoda02", //Replace "twitter" with your twitter username without @
+  userName: "ahmedalmory02", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
 
